@@ -52,6 +52,7 @@ public class Main {
         Square square = new Square();
         Square square2 = new Square(5);
         Square square3 = new Square(7,"Grey",true);
+        Square square4 = new Square();
         System.out.println("---------------Test Square--------------");
         System.out.println(square);
         System.out.println(square.getSide());
@@ -67,6 +68,12 @@ public class Main {
         System.out.println(square3.getSide());
         System.out.println(square3.getArea());
         System.out.println(square3.getPerimeter());
+        System.out.println("-------------------------------");
+        square4.setSide(10);
+        System.out.println(square4);
+        System.out.println(square4.getSide());
+        System.out.println(square4.getArea());
+        System.out.println(square4.getPerimeter());
         System.out.println("---------------End Test Square--------------");
 
 
